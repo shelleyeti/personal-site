@@ -1,11 +1,5 @@
-/*
-    Author: Shelley Arnold
-    Name: users-landing.js
-    Purpose: Landing page and welcome message
-*/
-
-import signUpForm from "./users-signup-buildDOM"
-import loginForm from "./users-login-buildDOM"
+// import signUpForm from "./users-signup-buildDOM"
+// import loginForm from "./users-login-buildDOM"
 
 const welcomeMessage = {
     buildWelcomeMessage: () => {
@@ -23,7 +17,7 @@ const welcomeMessage = {
         `
     },
     printToDOM: () => {
-        const outEl = document.querySelector(".users-main-output-container");
+        const outEl = document.querySelector(".home-main-output-container");
         let welcomeHTML = welcomeMessage.buildWelcomeMessage();
         outEl.innerHTML = welcomeHTML;
         document.querySelector(".landing-button-signIn").addEventListener("click", () => {

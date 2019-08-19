@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon">
+    <title>Shelley Arnold</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <ul class="nav nav-tabs sticky-top" id="myTab" role="tablist">
+            <li class="nav-item">
+                <h1 id="main-navbar-h1">Shelley Arnold</h1>
+                <h6 class="inline-header">Full Stack Developer</h2>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary active bottom-item" id="home-tab" data-toggle="tab" href="#home"
+                    role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary bottom-item" id="resume-tab" data-toggle="tab" href="#resume"
+                    role="tab" aria-controls="resume" aria-selected="false">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary bottom-item" id="projects-tab" data-toggle="tab" href="#projects"
+                    role="tab" aria-controls="projects" aria-selected="false">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary bottom-item" id="contact-tab" data-toggle="tab" href="#contact"
+                    role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Links in Navbar  -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container">
+                    <div class="inline-msg-img">
+                        <img src="public/images/professional.jpg" class="img-ofself" />
+                    </div>
+                    <div class="inline-msg">
+                        <h4>Hello, I'm a Software Developer</h4>
+                        <br />
+                        <p>Having spent 8 years working in public education, I developed a passion for learning and
+                            problem-solving. Being able to identify a problem and develop a feasible and timely solution
+                            helped me grow as an educator and has also helped drive my passion for learning to code.</p>
+                        <p>When I'm not coding, I enjoy aerial workouts, playing with my two rescue dogs, or attending
+                            live podcasts with my husband.</p>
+                        <form method="get" target=”_blank” action="/public/documents/Resume-ShelleyArnold.pdf">
+                            <button class="btn btn-light" type="submit">Download My Resume</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade show techos" id="resume" role="tabpanel" aria-labelledby="resume-tab">
+                <div class="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <img src="public/images/tech/html5.png" alt="html5" class="tech-stack" />
+                    <img src="public/images/tech/css3.png" alt="css" class="tech-stack" />
+                    <img src="public/images/tech/vsc.png" alt="visual studio code" class="tech-stack" />
+                    <img src="public/images/tech/npm.png" alt="npm" class="tech-stack" />
+                    <img src="public/images/tech/javascript.png" alt="javascript" class="tech-stack" />
+                    <img src="public/images/tech/grunt.png" alt="grunt" class="tech-stack" />
+                    <img src="public/images/tech/eslint.png" alt="es lint" class="tech-stack" />
+                    <img src="public/images/tech/bootstrap.png" alt="bootstrap" class="tech-stack" />
+                    <img src="public/images/tech/browserify.png" alt="browserify" class="tech-stack" />
+                    <img src="public/images/tech/react.png" alt="react" class="tech-stack" />
+                    <img src="public/images/tech/firebase.png" alt="firebase" class="tech-stack" />
+                    <img src="public/images/tech/visualstudio.png" alt="visual studio" class="tech-stack" />
+                    <img src="public/images/tech/dotnetcore.png" alt="dot net core" class="tech-stack" />
+                    <img src="public/images/tech/csharp.png" alt="c sharp" class="tech-stack" />
+                    <img src="public/images/tech/github.png" alt="github" class="tech-stack" />
+                    <img src="public/images/tech/sqlserver.png" alt="sql server" class="tech-stack" />
+                    <img src="public/images/tech/aspnetMVC.png" alt="asp net mvc" class="tech-stack" />
+                </div>
+                <br />
+                <br />
+                <!-- <div>
+                    <img src="public/images/resume.png" class="img-resume" />
+                </div> -->
+                <div class="inline-download">
+                    <form method="get" target=”_blank” action="/public/documents/Resume-ShelleyArnold.pdf">
+                        <button class="btn btn-light" type="submit">Download My Resume</button>
+                    </form>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                <div class="projects-main-output-container">
+                    <div class="projects-left-output-container">
+                        <a href="https://frontend-capstone-e1589.firebaseapp.com" target=”_blank”><img
+                                src="public/images/concat.png" alt="concat" class="logos center-img" /></a>
+                        <p>Concat: A single-page ticketing
+                            application for teachers and students. It
+                            allows students to join other tickets with
+                            their classmates to receive help together
+                            on the same topic. Students are also able
+                            to make solve their own tickets and
+                            document solution notes for others to
+                            use. Additionally, it allows teachers to
+                            assign tickets to themselves and reassign tickets so other teachers can solve
+                            them.</p>
+                    </div>
+                    <div class="projects-right-output-container">
+                        <img src="public/images/chromeX.png" alt="chromeX" class="logos center-img" />
+                        <p>chromeX: a routing planning application, coming soon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="contact-me">
+                    <div>
+                        <p>270.703.6729</p>
+                        <i class="fa fa-phone" style="color:#314759;"></i>
+                    </div>
+                    <div>
+                        <p>shelleykarnold@gmail.com</p>
+                        <a href="mailto:shelleykarnold@gmail.com"><i class="fa fa-envelope-open"
+                                style="color:#314759;"></i></a>
+                    </div>
+                    <div>
+                        <p>/shelleyarnoldtn</p>
+                        <a href="https://www.linkedin.com/in/shelleyarnoldtn/" target=”_blank”><i class="fa fa-linkedin"
+                                style="color:#314759;"></i></a>
+                    </div>
+                    <div>
+                        <p>github/shelleyeti</p>
+                        <a href="https://www.github.com/shelleyeti/" target=”_blank”> <i class="fa fa-github"
+                                style="color:#314759;"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Browserify -->
+</body>
+
+</html>
